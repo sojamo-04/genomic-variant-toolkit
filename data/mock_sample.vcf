@@ -1,0 +1,16 @@
+##fileformat=VCFv4.1
+##fileDate=20260710
+##IonReporterAnalysisName=26B0001234-A1_MockRun
+##IonReporterWorkflowName=OPA GX5 w3.4.2 Combo DNA Fusions
+##sampleGender=Female
+##sampleDiseaseType=Colorectal Cancer
+##manually_input_percent_tumor_cellularity=50.0
+##mapd=0.194
+##median_reads_per_amplicon=5400.0
+##TotalMappedFusionPanelReads=254000
+##FusionSampleQC=PASS,DetailedQC
+##FusionSampleOverallCall=NEGATIVE
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	SAMPLE
+chr12	25398284	.	C	T	100	PASS	AF=0.15;FDP=650;TYPE=snp;FUNC=[{'gene':'KRAS','protein':'p.Gly12Asp','coding':'c.35G>A','transcript':'NM_033360.3','exon':'2','function':'missense','location':'exonic','oncomineGeneClass':'Hotspot','oncomineVariantClass':'Hotspot'}]	GT:GQ:FDP:AF	0/1:100:650:0.15
+chr7	116371891	.	N	<CNV>	.	GAIN	SVTYPE=CNV;END=116422166;RAW_CN=12;REF_CN=2;CI=0.05:4.2,0.95:6.1;FUNC=[{'gene':'MET','oncomineVariantClass':'Amplification'}]	GT:CN	0/1:5.2
+chr7	55249071	ST7-MET.S1M2_1	N	<RNA_FUSION>	.	PASS	SVTYPE=Fusion;READ_COUNT=320;MOL_COUNT=55;NORM_MOL_COUNT_TO_HK=12.4;FUNC=[{'gene':'MET'}]	GT:READ_COUNT	0/1:320
